@@ -1,0 +1,118 @@
+body
+{
+	margin: 0px;
+}
+.flexbox
+{
+	list-style: none;
+	background-color: deepskyblue;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	flex-grow: <2>;
+/*THESE FOUR LINES ARE USED FOR SPACCING BETWEEN TEXT IN A FLEX*/
+	display: -webkit-box;
+ 	display: -moz-box;
+ 	display: -ms-flexbox;
+  	display: -webkit-flex;
+}
+.navbar-brand
+{
+font-family: fantasy;
+font-size: 4em;
+border-bottom: 2px solid red;
+border-right: 3px solid red;
+border-top: 3px solid red;
+border-left: 3px solid red;
+width: 450px;
+text-align: center;
+/*mozzila,internet explorer,safari,opera, prefix for working in it */
+-moz-box-shadow:4px 4px 5px #888888 ;
+-ms-box-shadow:4px 4px 5px #888888;
+-webkit-box-shadow:4px 4px 5px #888888;
+-o-box-shadow:4px 4px 5px #888888;
+box-shadow: 4px 4px 5px #888888
+}
+h1
+{
+	transition: all;
+}
+h1:hover
+{
+	background-color: 	#00FF00;
+	transform: scale(1.0);
+}
+
+img
+{
+	width: 200px;
+	height:200px;
+	margin: red;
+	margin: auto;
+	transition: all 2s;
+}
+img:hover
+{
+	transform: scale(1.1);
+}
+/*ANIMATIONS IN CSS */
+.div4 
+{
+  width: 100%;
+  height: 100%;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse 
+{
+  0% 
+  {
+    background-color: red;
+  }
+  50%
+  {
+  	background-color: green;
+  }
+  100% 
+  {
+    background-color: black;
+  }
+}
+html,body
+{
+  height: 100%;
+}
+.CS h1
+{
+ color: #EB0000;
+}
+.CS p
+{
+	font-size:30px;
+}
+span
+{
+	font-size:2em;
+}
+.boxmodel
+{
+	font-size: 3rem;
+	color: #EB0000;
+	text-align: center;
+	background-color: #2D0356;
+	display: inline-block;
+	border:solid #EB0000; 
+}
+.div2 h3
+{
+
+color:#6D577D;
+}
+.div2 a
+{
+	font-size: 2em;
+}
+footer
+{
+	font-size:2em;
+}

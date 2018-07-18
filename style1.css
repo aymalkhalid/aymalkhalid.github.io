@@ -1,0 +1,14 @@
+.jumbotron
+{
+	background-color: 	#9608FD;
+}
+.jumbotron:hover
+{
+	background-color: 	#969597;
+}
+.carousel-item
+{
+	height:100%; width:100%;
+	max-width:100% 
+	crop:50%;
+}
